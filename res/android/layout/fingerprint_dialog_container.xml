@@ -17,11 +17,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:minWidth="280dp" >
 
     <FrameLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
 
         <include layout="@layout/fingerprint_dialog_content" />
 
@@ -31,31 +33,21 @@
         android:id="@+id/buttonPanel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
         android:paddingTop="4dp"
         android:paddingBottom="4dp"
-        android:gravity="bottom"
+        android:orientation="vertical"
         style="?android:attr/buttonBarStyle">
 
-        <Space
-            android:id="@+id/spacer"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:visibility="invisible" />
         <Button
             android:id="@+id/cancel_button"
+            android:layout_gravity="center"
             style="?android:attr/buttonBarNegativeButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"/>
 
-        <Button
-            android:id="@+id/second_dialog_button"
-            style="?android:attr/buttonBarPositiveButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
     </LinearLayout>
 
 </LinearLayout>
