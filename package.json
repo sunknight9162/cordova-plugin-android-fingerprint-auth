@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mjwheatley/cordova-plugin-android-fingerprint-auth.git"
+    "url": "git+https://github.com/sunknight9162/cordova-plugin-android-fingerprint-auth.git"
   },
   "keywords": [
     "cordova",
@@ -24,7 +24,7 @@
   "author": "Matthew Wheatley",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/mjwheatley/cordova-plugin-android-fingerprint-auth/issues"
+    "url": "https://github.com/sunknight9162/cordova-plugin-android-fingerprint-auth/issues"
   },
-  "homepage": "https://github.com/mjwheatley/cordova-plugin-android-fingerprint-auth#readme"
+  "homepage": "https://github.com/sunknight9162/cordova-plugin-android-fingerprint-auth#readme"
 }
